@@ -1,0 +1,106 @@
+/* ===== MOBILE RESPONSIVE STYLES ===== */
+@media only screen and (max-width: 900px) and (min-width:200px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    #container-1 {
+        padding: 20px;
+    }
+
+    .menu {
+        width: 30%;
+        right: -30%;
+        padding-left: 30px;
+    }
+
+    .menu h4 {
+        font-size: 24px;
+    }
+
+    .name h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .text {
+        max-width: 100%;
+        padding: 0 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .info {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .education,
+    .skills,
+    .projects,
+    .contacts {
+        padding: 20px;
+        height: auto;
+    }
+
+    .quals {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        row-gap: 40px;
+    }
+
+    .matric h1 {
+        font-size: 32px;
+    }
+
+    .mat-quals {
+        font-size: 16px;
+    }
+
+    .skill-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-skill {
+        height: 80px;
+        width: 80px;
+    }
+
+    .space {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .space h1 {
+        font-size: 32px;
+    }
+
+    .container-contact {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .text1 {
+        margin-left: 0;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .form {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .numbers {
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}
